@@ -24,3 +24,19 @@ Markdown notes are pretty. Pretty notes are easier to read.
    [docker-cli](https://chocolatey.org/packages/docker-cli) on Windows
 
    It seems to work just fine with the Docker VSCode extension
+
+## Terraform
+### Bastion + WebServers
+1. Have the bastion assume a role (with ec2, route53)
+1. Augment the output to return all the IPs
+1. Augment the dns record to include all the EIPs
+
+### Moving forward
+1. Separate the bastion creation into its own project?
+1. Chain the terraform s/t most of the resources are created/managed from the bastion?
+1. Run ansible/salt/other from the bastion to configure basic webservers
+1. Set up additional resources for WordPress (ALB, MySQL/Aurora DB, CloudFront, S3)
+
+
+## AWS
+1. Read up on ALB
