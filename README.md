@@ -41,3 +41,6 @@ Markdown notes are pretty. Pretty notes are easier to read.
 
 ## AWS
 1. Read up on ALB
+
+## Salt
+*  If `pillar.items` shows your data but `pillar.items key` doesn't, there may an issue with the formatting of the data.
