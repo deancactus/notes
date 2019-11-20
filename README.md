@@ -12,6 +12,7 @@ Markdown notes are pretty. Pretty notes are easier to read.
 1. AWS cert
 
 ## Docker
+
 *  There's no built-in support in Docker Desktop Win/Mac for remote 'hosts' access
 
    You can run a container to expose a port for this purpose:
